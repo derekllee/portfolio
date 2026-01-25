@@ -16,15 +16,15 @@
             --bg-secondary: #f8f9fa;
             --text-primary: #1a1a1a;
             --text-secondary: #666666;
-            --accent: #2563eb;
-            --accent-hover: #1d4ed8;
+            --accent: #255aeb;
+            --accent-hover: #2f009b;
             --border: #e5e7eb;
             --card-bg: #ffffff;
             --shadow: rgba(0, 0, 0, 0.1);
         }
 
         [data-theme="dark"] {
-            --bg-primary: #0a0a0a;
+            --bg-primary: #1a1a1a;
             --bg-secondary: #111111;
             --text-primary: #ffffff;
             --text-secondary: #a0a0a0;
@@ -120,10 +120,7 @@
             font-size: 3.5rem;
             font-weight: 800;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, var(--accent), #8b5cf6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: var(--accent);
         }
 
         .hero-content .subtitle {
@@ -259,7 +256,7 @@
             left: 0;
             right: 0;
             height: 4px;
-            background: linear-gradient(90deg, var(--accent), #8b5cf6);
+            background-color: var(--accent);
             transform: scaleX(0);
             transition: transform 0.3s ease;
         }
@@ -376,8 +373,8 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content">
-                <h1>Hi, I'm Derek Lee</h1>
-                <p class="subtitle">Computer Engineering Junior @ Boston University</p>
+                <h1>Derek Lee's Portfolio</h1>
+                <p class="subtitle">-</p>
                 <div class="cta-buttons">
                     <a href="#contact" class="btn btn-primary">Contact Me</a>
                     <a href="#projects" class="btn btn-secondary">View Projects</a>
@@ -388,7 +385,7 @@
         <section id="about">
             <div class="container">
                 <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate about creating innovative solutions with modern technology</p>
+                <p class="section-subtitle">Computer Engineering Junior @ Boston University</p>
                 
                 <div class="about-content">
                     <div class="skill-category">
